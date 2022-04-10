@@ -30,3 +30,15 @@ Time Complexity: Average case: Aradığımız sayının ortada olması, Worst ca
 5-) (11,16,21) - (8,12,22)
 6-) (8,11,12,16,21,22)
 Big-O = O(n.logn)
+
+
+--BINARY SEARCH TREE--
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+
+                    7
+        5                     8
+  1           6                     9
+0    3
+   2    4
+
+
