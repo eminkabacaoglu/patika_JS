@@ -5,7 +5,7 @@ let adAlani = document.querySelector("span#myName")
 adAlani.innerHTML = myName;
 
 function showTime(){
-    let daysinWeek=["Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi"]//js de hafta pazardan başlar
+    const daysinWeek=["Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi"]//js de hafta pazardan başlar
     let time =new Date();
     let hour = time.getHours();
     let min = time.getMinutes();
